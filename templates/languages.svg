@@ -9,7 +9,6 @@ svg {
 #background {
   width: calc(100% - 10px);
   height: calc(100% - 10px);
-  fill: white;
   stroke: rgb(225, 228, 232);
   stroke-width: 1px;
   rx: 6px;
@@ -17,7 +16,6 @@ svg {
 }
 
 #gh-dark-mode-only:target #background {
-  fill: #0d1117;
   stroke-width: 0.5px;
 }
 
@@ -123,7 +121,7 @@ div.ellipsis {
 }
 </style>
 <g>
-<rect x="5" y="5" id="background" />
+<rect x="5" y="5" id="background" fill="transparent" />
 <g>
 <foreignObject x="21" y="17" width="318" height="176">
 <div xmlns="http://www.w3.org/1999/xhtml" class="ellipsis">
