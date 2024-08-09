@@ -19,6 +19,12 @@ svg {
   stroke-width: 0.5px;
 }
 
+@media (prefers-color-scheme: dark) {
+  #background {
+    stroke-width: 0.5px;
+  }
+}
+
 foreignObject {
   width: calc(100% - 10px - 32px);
   height: calc(100% - 10px - 24px);
@@ -37,6 +43,13 @@ h2 {
 #gh-dark-mode-only:target h2 {
   color: #c9d1d9;
   fill: #c9d1d9;
+}
+
+@media (prefers-color-scheme: dark) {
+  h2 {
+    color: #c9d1d9;
+    fill: #c9d1d9;
+  }
 }
 
 ul {
@@ -79,6 +92,13 @@ div.ellipsis {
   fill: #8b949e;
 }
 
+@media (prefers-color-scheme: dark) {
+  .octicon {
+    color: #8b949e;
+    fill: #8b949e;
+  }
+}
+
 .progress {
   display: flex;
   height: 8px;
@@ -93,6 +113,12 @@ div.ellipsis {
   background-color: rgba(110, 118, 129, 0.4);
 }
 
+@media (prefers-color-scheme: dark) {
+  progress {
+    background-color: rgba(110, 118, 129, 0.4);
+  }
+}
+
 .progress-item {
   outline: 2px solid rgb(225, 228, 232);
   border-collapse: collapse;
@@ -100,6 +126,12 @@ div.ellipsis {
 
 #gh-dark-mode-only:target .progress-item {
   outline: 2px solid #393f47;
+}
+
+@media (prefers-color-scheme: dark) {
+  .progress-item {
+    outline: 2px solid #393f47;
+  }
 }
 
 .lang {
@@ -112,12 +144,24 @@ div.ellipsis {
   color: #c9d1d9;
 }
 
+@media (prefers-color-scheme: dark) {
+  .lang {
+    color: #c9d1d9;
+  }
+}
+
 .percent {
   color: rgb(88, 96, 105)
 }
 
 #gh-dark-mode-only:target .percent {
   color: #8b949e;
+}
+
+@media (prefers-color-scheme: dark) {
+  .percent {
+    color: #8b949e;
+  }
 }
 </style>
 <g>

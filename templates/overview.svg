@@ -19,6 +19,12 @@ svg {
   stroke-width: 0.5px;
 }
 
+@media (prefers-color-scheme: dark) {
+  #background {
+    stroke-width: 0.5px;
+  }
+}
+
 foreignObject {
   width: calc(100% - 10px - 32px);
   height: calc(100% - 10px - 32px);
@@ -43,6 +49,12 @@ th {
   color: #58a6ff;
 }
 
+@media (prefers-color-scheme: dark) {
+  th {
+    color: #58a6ff;
+  }
+}
+
 td {
   margin-bottom: 16px;
   margin-top: 8px;
@@ -54,6 +66,12 @@ td {
 
 #gh-dark-mode-only:target td {
   color: #c9d1d9;
+}
+
+@media (prefers-color-scheme: dark) {
+  td {
+    color: #c9d1d9;
+  }
 }
 
 tr {
@@ -69,6 +87,12 @@ tr {
 
 #gh-dark-mode-only:target .octicon {
   fill: #8b949e;
+}
+
+@media (prefers-color-scheme: dark) {
+  .octicon {
+    fill: #8b949e;
+  }
 }
 
 @keyframes slideIn {
